@@ -1,0 +1,24 @@
+{
+    "name": "constpereiradev/lang-pt",
+    "description": "Pacote de tradução para Laravel em português",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amanda Pereira",
+            "email": "amandapereiradevcontact@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LangPT\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LangPT\\LangServiceProvider"
+            ]
+        }
+    }
+}
