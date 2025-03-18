@@ -12,7 +12,7 @@ class LangServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../lang' => resource_path('lang/vendor/langpt'),
-        ]);
+        ], 'langpt');
     }
 
     public function register()
